@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6547BF4529F914CB00593D17 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6547BF4429F914CA00593D17 /* WidgetKit.framework */; };
+		6547BF4729F914CB00593D17 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6547BF4629F914CB00593D17 /* SwiftUI.framework */; };
+		6547BF4A29F914CB00593D17 /* OnJeWaWidgetTestBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6547BF4929F914CB00593D17 /* OnJeWaWidgetTestBundle.swift */; };
+		6547BF4C29F914CB00593D17 /* OnJeWaWidgetTestLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6547BF4B29F914CB00593D17 /* OnJeWaWidgetTestLiveActivity.swift */; };
+		6547BF4E29F914CB00593D17 /* OnJeWaWidgetTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6547BF4D29F914CB00593D17 /* OnJeWaWidgetTest.swift */; };
+		6547BF5029F914CD00593D17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6547BF4F29F914CD00593D17 /* Assets.xcassets */; };
+		6547BF5429F914CD00593D17 /* OnJeWaWidgetTestExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 6547BF4329F914CA00593D17 /* OnJeWaWidgetTestExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6547BF5D29FB8EF800593D17 /* Test.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6547BF5B29FB8EF800593D17 /* Test.xcdatamodeld */; };
+		6547BF5F29FBB46500593D17 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6547BF5E29FBB46500593D17 /* ViewController2.swift */; };
+		6547BF6129FBD1C500593D17 /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6547BF6029FBD1C500593D17 /* ViewController3.swift */; };
+		6547BF6429FBE25400593D17 /* ViewController4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6547BF6329FBE25400593D17 /* ViewController4.swift */; };
+		6547BF6829FBF03B00593D17 /* ViewController5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6547BF6729FBF03B00593D17 /* ViewController5.swift */; };
 		65510BC129F7D89D002E15CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65510BC029F7D89D002E15CD /* AppDelegate.swift */; };
 		65510BC329F7D89D002E15CD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65510BC229F7D89D002E15CD /* SceneDelegate.swift */; };
 		65510BC529F7D89D002E15CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65510BC429F7D89D002E15CD /* ViewController.swift */; };
@@ -24,6 +36,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		6547BF5229F914CD00593D17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65510BB529F7D89D002E15CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6547BF4229F914CA00593D17;
+			remoteInfo = OnJeWaWidgetTestExtension;
+		};
 		65510BD429F7D89E002E15CD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 65510BB529F7D89D002E15CD /* Project object */;
@@ -40,7 +59,36 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		6547BF5829F914CD00593D17 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				6547BF5429F914CD00593D17 /* OnJeWaWidgetTestExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		6547BF4329F914CA00593D17 /* OnJeWaWidgetTestExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = OnJeWaWidgetTestExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		6547BF4429F914CA00593D17 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		6547BF4629F914CB00593D17 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		6547BF4929F914CB00593D17 /* OnJeWaWidgetTestBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnJeWaWidgetTestBundle.swift; sourceTree = "<group>"; };
+		6547BF4B29F914CB00593D17 /* OnJeWaWidgetTestLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnJeWaWidgetTestLiveActivity.swift; sourceTree = "<group>"; };
+		6547BF4D29F914CB00593D17 /* OnJeWaWidgetTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnJeWaWidgetTest.swift; sourceTree = "<group>"; };
+		6547BF4F29F914CD00593D17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6547BF5129F914CD00593D17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6547BF5929F9172700593D17 /* OnJeWa.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OnJeWa.entitlements; sourceTree = "<group>"; };
+		6547BF5A29F9174900593D17 /* OnJeWaWidgetTestExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OnJeWaWidgetTestExtension.entitlements; sourceTree = "<group>"; };
+		6547BF5C29FB8EF800593D17 /* Test.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Test.xcdatamodel; sourceTree = "<group>"; };
+		6547BF5E29FBB46500593D17 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		6547BF6029FBD1C500593D17 /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
+		6547BF6329FBE25400593D17 /* ViewController4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController4.swift; sourceTree = "<group>"; };
+		6547BF6729FBF03B00593D17 /* ViewController5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController5.swift; sourceTree = "<group>"; };
 		65510BBD29F7D89D002E15CD /* OnJeWa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnJeWa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65510BC029F7D89D002E15CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		65510BC229F7D89D002E15CD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +107,15 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		6547BF4029F914CA00593D17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6547BF4729F914CB00593D17 /* SwiftUI.framework in Frameworks */,
+				6547BF4529F914CB00593D17 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		65510BBA29F7D89D002E15CD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -109,6 +166,10 @@
 			isa = PBXGroup;
 			children = (
 				65510BC429F7D89D002E15CD /* ViewController.swift */,
+				6547BF5E29FBB46500593D17 /* ViewController2.swift */,
+				6547BF6029FBD1C500593D17 /* ViewController3.swift */,
+				6547BF6329FBE25400593D17 /* ViewController4.swift */,
+				6547BF6729FBF03B00593D17 /* ViewController5.swift */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -130,15 +191,29 @@
 			path = Resource;
 			sourceTree = "<group>";
 		};
+		6547BF4829F914CB00593D17 /* OnJeWaWidgetTest */ = {
+			isa = PBXGroup;
+			children = (
+				6547BF4929F914CB00593D17 /* OnJeWaWidgetTestBundle.swift */,
+				6547BF4B29F914CB00593D17 /* OnJeWaWidgetTestLiveActivity.swift */,
+				6547BF4D29F914CB00593D17 /* OnJeWaWidgetTest.swift */,
+				6547BF4F29F914CD00593D17 /* Assets.xcassets */,
+				6547BF5129F914CD00593D17 /* Info.plist */,
+			);
+			path = OnJeWaWidgetTest;
+			sourceTree = "<group>";
+		};
 		65510BB429F7D89D002E15CD = {
 			isa = PBXGroup;
 			children = (
+				6547BF5A29F9174900593D17 /* OnJeWaWidgetTestExtension.entitlements */,
 				65510BFD29F7F3E6002E15CD /* OnJeWaCore */,
 				65510BFC29F7F3B9002E15CD /* OnJeWaNetwork */,
 				65510BFB29F7F399002E15CD /* OnJeWaUI */,
 				65510BBF29F7D89D002E15CD /* OnJeWa */,
 				65510BD629F7D89E002E15CD /* OnJeWaTests */,
 				65510BE029F7D89E002E15CD /* OnJeWaUITests */,
+				6547BF4829F914CB00593D17 /* OnJeWaWidgetTest */,
 				65510BBE29F7D89D002E15CD /* Products */,
 				65510BFE29F7FABD002E15CD /* Frameworks */,
 			);
@@ -150,6 +225,7 @@
 				65510BBD29F7D89D002E15CD /* OnJeWa.app */,
 				65510BD329F7D89E002E15CD /* OnJeWaTests.xctest */,
 				65510BDD29F7D89E002E15CD /* OnJeWaUITests.xctest */,
+				6547BF4329F914CA00593D17 /* OnJeWaWidgetTestExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -157,11 +233,13 @@
 		65510BBF29F7D89D002E15CD /* OnJeWa */ = {
 			isa = PBXGroup;
 			children = (
+				6547BF5929F9172700593D17 /* OnJeWa.entitlements */,
 				6547BF3A29F8EB3600593D17 /* Application */,
 				6547BF3B29F8EB4800593D17 /* Domain */,
 				6547BF3D29F8EB6400593D17 /* Data */,
 				6547BF3C29F8EB5700593D17 /* Presentation */,
 				6547BF3E29F8EB6800593D17 /* Resource */,
+				6547BF5B29FB8EF800593D17 /* Test.xcdatamodeld */,
 			);
 			path = OnJeWa;
 			sourceTree = "<group>";
@@ -186,6 +264,8 @@
 		65510BFE29F7FABD002E15CD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6547BF4429F914CA00593D17 /* WidgetKit.framework */,
+				6547BF4629F914CB00593D17 /* SwiftUI.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -193,6 +273,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		6547BF4229F914CA00593D17 /* OnJeWaWidgetTestExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6547BF5529F914CD00593D17 /* Build configuration list for PBXNativeTarget "OnJeWaWidgetTestExtension" */;
+			buildPhases = (
+				6547BF3F29F914CA00593D17 /* Sources */,
+				6547BF4029F914CA00593D17 /* Frameworks */,
+				6547BF4129F914CA00593D17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OnJeWaWidgetTestExtension;
+			productName = OnJeWaWidgetTestExtension;
+			productReference = 6547BF4329F914CA00593D17 /* OnJeWaWidgetTestExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		65510BBC29F7D89D002E15CD /* OnJeWa */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 65510BE729F7D89E002E15CD /* Build configuration list for PBXNativeTarget "OnJeWa" */;
@@ -200,10 +297,12 @@
 				65510BB929F7D89D002E15CD /* Sources */,
 				65510BBA29F7D89D002E15CD /* Frameworks */,
 				65510BBB29F7D89D002E15CD /* Resources */,
+				6547BF5829F914CD00593D17 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				6547BF5329F914CD00593D17 /* PBXTargetDependency */,
 			);
 			name = OnJeWa;
 			packageProductDependencies = (
@@ -264,6 +363,9 @@
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
+					6547BF4229F914CA00593D17 = {
+						CreatedOnToolsVersion = 14.2;
+					};
 					65510BBC29F7D89D002E15CD = {
 						CreatedOnToolsVersion = 14.2;
 					};
@@ -296,11 +398,20 @@
 				65510BBC29F7D89D002E15CD /* OnJeWa */,
 				65510BD229F7D89E002E15CD /* OnJeWaTests */,
 				65510BDC29F7D89E002E15CD /* OnJeWaUITests */,
+				6547BF4229F914CA00593D17 /* OnJeWaWidgetTestExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		6547BF4129F914CA00593D17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6547BF5029F914CD00593D17 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		65510BBB29F7D89D002E15CD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -327,11 +438,26 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		6547BF3F29F914CA00593D17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6547BF4E29F914CB00593D17 /* OnJeWaWidgetTest.swift in Sources */,
+				6547BF4C29F914CB00593D17 /* OnJeWaWidgetTestLiveActivity.swift in Sources */,
+				6547BF4A29F914CB00593D17 /* OnJeWaWidgetTestBundle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		65510BB929F7D89D002E15CD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6547BF5F29FBB46500593D17 /* ViewController2.swift in Sources */,
+				6547BF6429FBE25400593D17 /* ViewController4.swift in Sources */,
 				65510BC529F7D89D002E15CD /* ViewController.swift in Sources */,
+				6547BF6129FBD1C500593D17 /* ViewController3.swift in Sources */,
+				6547BF6829FBF03B00593D17 /* ViewController5.swift in Sources */,
+				6547BF5D29FB8EF800593D17 /* Test.xcdatamodeld in Sources */,
 				65510BC129F7D89D002E15CD /* AppDelegate.swift in Sources */,
 				65510BC329F7D89D002E15CD /* SceneDelegate.swift in Sources */,
 			);
@@ -357,6 +483,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		6547BF5329F914CD00593D17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6547BF4229F914CA00593D17 /* OnJeWaWidgetTestExtension */;
+			targetProxy = 6547BF5229F914CD00593D17 /* PBXContainerItemProxy */;
+		};
 		65510BD529F7D89E002E15CD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 65510BBC29F7D89D002E15CD /* OnJeWa */;
@@ -381,6 +512,64 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		6547BF5629F914CD00593D17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = OnJeWaWidgetTestExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F92UQYH2RA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OnJeWaWidgetTest/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = OnJeWaWidgetTest;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ungchun.OnJeWa.OnJeWaWidgetTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6547BF5729F914CD00593D17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = OnJeWaWidgetTestExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F92UQYH2RA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OnJeWaWidgetTest/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = OnJeWaWidgetTest;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ungchun.OnJeWa.OnJeWaWidgetTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		65510BE529F7D89E002E15CD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -498,10 +687,13 @@
 		65510BE829F7D89E002E15CD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = OnJeWa/OnJeWa.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F92UQYH2RA;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = OnJeWa/Resource/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -525,10 +717,13 @@
 		65510BE929F7D89E002E15CD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = OnJeWa/OnJeWa.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F92UQYH2RA;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = OnJeWa/Resource/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -624,6 +819,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		6547BF5529F914CD00593D17 /* Build configuration list for PBXNativeTarget "OnJeWaWidgetTestExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6547BF5629F914CD00593D17 /* Debug */,
+				6547BF5729F914CD00593D17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		65510BB829F7D89D002E15CD /* Build configuration list for PBXProject "OnJeWa" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -702,6 +906,19 @@
 			productName = OnJeWaUI;
 		};
 /* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		6547BF5B29FB8EF800593D17 /* Test.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6547BF5C29FB8EF800593D17 /* Test.xcdatamodel */,
+			);
+			currentVersion = 6547BF5C29FB8EF800593D17 /* Test.xcdatamodel */;
+			path = Test.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 65510BB529F7D89D002E15CD /* Project object */;
 }
